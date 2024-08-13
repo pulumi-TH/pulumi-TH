@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  pulumi:template: static-website-aws-python
+  python-AWS-static-site-test:errorDocument: error.html
+  python-AWS-static-site-test:indexDocument: index.html
+  python-AWS-static-site-test:path: ./www
